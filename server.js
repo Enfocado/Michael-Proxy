@@ -68,7 +68,7 @@ app.get('/project/:projectId/section/:sectionName', (req, res) => {
 
 app.get('/projects/:id', (req, res) => {
   let options = {
-    url: 'http://ec2-18-222-231-30.us-east-2.compute.amazonaws.com/projects/2',
+    url: 'http://ec2-18-222-231-30.us-east-2.compute.amazonaws.com/projects/21',
   }
 
   request(options, (err, response, body) => {
